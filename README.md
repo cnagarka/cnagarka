@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @cnagarka
+- 👋 Hi, I’m Chetan!
 - 👀 I’m interested in *learning Python Developement*.
 - 🌱 I’m currently learning `Python, Openshift & Ansible` currently!
 - 💞️ I’m looking to collaborate on [Nothing as of now]
