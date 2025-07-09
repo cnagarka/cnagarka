@@ -11,3 +11,14 @@ python expense_tracker.py summary
 ```
 
 Expenses are stored in `expenses.json` in the same directory.
+
+## Web Interface
+
+A basic web interface is available using Flask. Run it with:
+
+```
+python -m expense_tracker.web_ui
+```
+
+Then open `http://localhost:5000` in your browser to view and add expenses.
+
