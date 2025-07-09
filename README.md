@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Chetan!
-- 👀 I’m interested in *learning Python Developement*.
-- 🌱 I’m currently learning `Python, Openshift & Ansible` currently!
+- 👀 I’m interested in *learning Python Development*.
+- 🌱 I’m currently learning `Python, Openshift & Ansible`.
 - 💞️ I’m looking to collaborate on [Nothing as of now]
 - 📫 How to reach me at chetan8178@gmail.com 
 
