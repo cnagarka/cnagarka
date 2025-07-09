@@ -10,6 +10,8 @@ python expense_tracker.py list
 python expense_tracker.py summary
 ```
 
+The amount should be provided as a number (do not quote it).
+
 Expenses are stored in `expenses.json` in the same directory.
 
 ## Web Interface

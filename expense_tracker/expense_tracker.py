@@ -19,6 +19,17 @@ def save_expenses(expenses):
 
 
 def add_expense(description, amount, category):
+    """Add a new expense entry.
+
+    The amount is converted to ``float``. If conversion fails the user is
+    informed and the entry is not stored.
+    """
+    try:
+        amount = float(amount)
+    except ValueError:
+        print('Invalid amount. Please enter a numeric value.')
+        return
+
     expenses = load_expenses()
     expense = {
         'description': description,
@@ -43,7 +54,7 @@ def summarize_expenses():
     expenses = load_expenses()
     summary = defaultdict(float)
     for exp in expenses:
-        summary[exp['category']] += float(exp['amount'])
+        summary[exp['category']] += exp['amount']
     for category, total in summary.items():
         print(f"{category}: ${total}")
 
